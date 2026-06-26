@@ -1,0 +1,15 @@
+{
+  "query_id": "q001",
+  "question": "What is the EU AI Act?",
+  "generated_answer": "Possibly wrong answer.",
+  "scores": {
+    "faithfulness": 0.5,
+    "answer_relevance": 0.9,
+    "context_relevance": 0.8
+  },
+  "retrieved_chunks": [],
+  "flagged_at": "2026-06-26T04:05:48.314171",
+  "status": "pending_review",
+  "reviewer": null,
+  "reviewed_answer": null
+}

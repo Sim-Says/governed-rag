@@ -1,0 +1,16 @@
+# ── Core RAG Pipeline ──────────────────────────────────────
+chromadb>=0.5.0                # Vector store (local, persistent)
+sentence-transformers>=3.0.0   # Embedding model (all-MiniLM-L6-v2, runs locally)
+openai>=1.0.0                  # HTTP client for Ollama Cloud Pro (OpenAI-compatible API)
+
+# ── Evaluation ─────────────────────────────────────────────
+ragas>=0.1.0                   # RAG triad evaluation (faithfulness, relevance, context)
+deepeval>=1.0.0                # Regression suite (pytest-based, baseline comparison)
+datasets>=2.0.0                # HuggingFace datasets (required by Ragas internally)
+
+# ── Testing & Config ──────────────────────────────────────
+pytest>=8.0.0                  # Test runner
+python-dotenv>=1.0.0           # Load .env config files
+
+streamlit
+pandas
