@@ -7,6 +7,7 @@ This document describes the full technical architecture of the Governed RAG syst
 ## 1. High-Level System Overview
 
 ```mermaid
+
 graph TD
     subgraph Ingestion
         A[Markdown Corpus] --> B[Chunker]
